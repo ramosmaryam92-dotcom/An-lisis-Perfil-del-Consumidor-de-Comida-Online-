@@ -3,7 +3,7 @@ Este repositorio contiene un script en Python utilizando **Pandas** para realiza
 
 ##  Estructura y Descripción del Proyecto
 
-El análisis parte de un archivo CSV local (`onlinef.csv`) con un total de 388 registros y 14 columnas iniciales que describen aspectos demográficos, geográficos y de satisfacción del consumidor.
+El análisis parte de un archivo CSV local (`food_online.csv`) con un total de 388 registros y 14 columnas iniciales que describen aspectos demográficos, geográficos y de satisfacción del consumidor.
 
 ### 1. Limpieza y Preparación de Datos (`Data Cleaning`)
 Durante la fase inicial de inspección, se identificaron y eliminaron columnas irrelevantes o con ruido para optimizar el dataset:
