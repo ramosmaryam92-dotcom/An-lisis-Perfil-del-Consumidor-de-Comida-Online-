@@ -1,7 +1,7 @@
 # Analisis-Perfil-del-Consumidor-de-Comida-Online-
 Este repositorio contiene un script en Python utilizando **Pandas** para realizar la limpieza, transformación y análisis exploratorio de un conjunto de datos sobre preferencias y comportamiento de clientes de comida en línea.
 
-## 📁 Estructura y Descripción del Proyecto
+##  Estructura y Descripción del Proyecto
 
 El análisis parte de un archivo CSV local (`onlinef.csv`) con un total de 388 registros y 14 columnas iniciales que describen aspectos demográficos, geográficos y de satisfacción del consumidor.
 
@@ -17,7 +17,7 @@ El dataset incluye variables numéricas clave como la edad (`Age`), tamaño de f
 
 ---
 
-## 🔍 Hallazgos y Análisis Clave
+##  Hallazgos y Análisis Clave
 
 El análisis profundiza en la segmentación de clientes y su nivel de satisfacción (**Feedback**):
 
@@ -43,13 +43,13 @@ El análisis profundiza en la segmentación de clientes y su nivel de satisfacci
 
 ---
 
-## 💾 Exportación de Resultados
+## Exportación de Resultados
 Una vez finalizado el proceso de transformación y filtrado, el DataFrame limpio y enriquecido con la nueva columna de categorías de edad es exportado a un archivo CSV listo para reportes o dashboards:
 ```python
 datos.to_csv("Analisis_definitivo.csv", index=False)
 ```
 
-## 🚀 Requisitos y Ejecución
+##  Requisitos y Ejecución
 * Python 3.12+
 * Librería Pandas
 
